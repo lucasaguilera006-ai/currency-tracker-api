@@ -1,0 +1,6 @@
+@CurrencyTrackerAPI_HostAddress = http://localhost:5243
+
+GET {{CurrencyTrackerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
