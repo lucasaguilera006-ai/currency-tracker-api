@@ -58,8 +58,9 @@ Devuelve el historial de cotizaciones consultadas para un par de monedas.
 ```
 
 ## 📷 Capturas
+![Swagger - endpoint latest](screenshots-latest.png)
+![Swagger - endpoint history](screenshots-history.png)
 
-_Agregá acá 1-2 capturas de Swagger mostrando los endpoints en funcionamiento (`/latest` y `/history`)._
 
 ## ▶️ Cómo correrlo localmente
 
