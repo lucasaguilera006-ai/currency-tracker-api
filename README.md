@@ -60,7 +60,7 @@ Endpoint /latest en funcionamiento:
 
 Endpoint /history en funcionamiento:
 
-![Swagger - endpoint history](screenshots-history.png)
+![Swagger - endpoint history](screenshot-history.png)
 
 ▶️ Cómo correrlo localmente
 Cloná el repositorio:
