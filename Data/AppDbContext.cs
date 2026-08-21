@@ -10,5 +10,12 @@ namespace CurrencyTrackerAPI.Data
         }
 
         public DbSet<CurrencyLog> CurrencyLogs { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<CurrencyLog>()
+                .Property(c => c.ExchangeRate)
+                .HasPrecision(18, 6);
+        }
     }
 }

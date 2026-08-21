@@ -14,7 +14,7 @@ namespace CurrencyTrackerAPI.Services
         {
             _httpClient = httpClient;
             _cache = cache;
-            _apiKey = configuration["ExchangeRateApiKey"]!;
+            _apiKey = configuration["ExchangeRate:ApiKey"]!;
         }
         public async Task<decimal> GetExchangeRateAsync(string baseCurrency, string targetCurrency)
         {
